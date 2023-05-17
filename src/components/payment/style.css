@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: ; */
+}
+#content {
+  height: 100%;
+  width: 100%;
+  background: url(./Back\ Ground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#content article {
+  height: 100%;
+  width: 1350px;
+  /* border: 2px solid black; */
+  /* margin-bottom: 1000px; */
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#content article .text-bar {
+  height: 700px;
+  width: 600px;
+  /* display: flex; */
+  /* background-color: antiquewhite; */
+}
+#content article .text-bar p {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#content article .text-bar p .clr-bar {
+  color: #0096FF;
+  font-weight:700;
+}
+#content article .text-bar p .underline{
+    text-decoration: line-through;
+    text-decoration-color: var(--danger-2);
+}
+#content article .text-bar table tr td img {
+  size: 20px;
+  height: auto;
+  width: 50px;
+}
+#content article .text-bar table tr td {
+  font-size: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+
+  /* font-weight: bold; */
+}
+#content article .text-bar table tr td p {
+  font-size: 20px;
+  /* background: 0096FF; */
+  color: #0096ff;
+}
+#content article .text-bar table tr td span{
+    color: #0096FF;  
+}
+
+/*  ----- right box starts ---- */
+
+#payment-container {
+  height: 800px;
+  width: 500px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#payment-container .container{
+  height: 100%;
+  width: 100%;
+  background-color: var(--text-4);
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 10px; */
+  
+  position: relative;
+}
+#payment-container  .numbar {
+  /* display: flex; */
+  /* justify-content: first baseline; */
+  height: 89px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+#payment-container .numbar .num {
+  /* color:white; */
+  width: 35px;
+  height: 35px;
+  background-color: #0096ff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  /* flex-direction: column; */
+  /* margin-left: 80px; */
+  /* margin-bottom: 3px; */
+}
+#payment-container  .numbar .num {
+  color: white;
+  font-style: normal;
+  font-size: 25px;
+  margin-top: 18px;
+}
+#payment-container  .container.numbar .textbar {
+  /* height: 50px; */
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+#payment-container .container .numbar2 {
+  height: 89px;
+  width: 50%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#payment-container .numbar2 .num2 {
+  width: 35px;
+  height: 35px;
+  background-color: #0096ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#payment-container .numbar2 .num2 {
+  font-size: 25px;
+  color: white;
+  font-style: normal;
+  text-align: center;
+}
+#payment-container .numbar2 div {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+#payment-container nav.row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#payment-container title h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#payment-container .plan-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+    isolation: isolate;
+    width: 80%;
+    height: 35px;
+    background: white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px auto;
+    justify-content: space-between;
+    border: 2px solid var(--text-3);
+    position: relative;
+}
+#payment-container .divider{
+    /* padding: 10px; */
+    width: 85%;
+    margin:  10px auto;
+    
+
+}
+#payment-container .row.box{
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
+#payment-container .icon{
+    width: 120px;
+    height: 45px;
+}
+#payment-container  .logo-bar .time-box{
+    height: 20px;
+    width: 20px;
+    
+}
+#payment-container  .logo-bar .time-box path{
+  fill: var(--alert-text);
+}
+#payment-container .col.offer-box{
+  justify-content: flex-start;
+  height: unset;
+  flex-direction: column;
+  align-items: flex-start;
+  background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+
+}
+#payment-container .content-bar{
+  background-color: var(--alert-border);
+}
+
+
+#payment-container .col.offer-box h5
+{
+  line-height: 0;
+  color: var(--alert-text);
+}
+#payment-container .col.offer-box span
+{
+ margin-left: auto;
+ color: var(--alert-text);
+  
+}
+
+#payment-container .col.offer-box .time-box{
+  margin-right: 10px;
+ 
+}
+#payment-container .container .plan-box .tag{
+  height: 16px;
+  left: 99px;
+  top: 0px;
+  font-size: 10px;
+  color: var(--text-4);
+  background-color: var(--danger-1);
+  /* border-radius: 0px opx 4px 4px; */
+
+}
+#payment-container .container  .tag.crt-bar{
+  background-color:var(--success);
+}
+
+#payment-container .selected-box{
+  background-color: var(--success-2);
+  border: 2px solid var(--success);
+}
+#payment-container .check-icon{
+  padding: 9px;
+}
+
+#payment-container small{
+  color: var(--text-3);
+}
+#payment-container .button-bar button{
+  background-color: var(--success);
+  width: 100%;
+  height: 100%;
+}
+#payment-container .button-box button{
+  width: 200%;
+}
+
+
+
+
+/*  ----- right box ends ---- */

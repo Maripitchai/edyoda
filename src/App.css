@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+:root{
+  --text-1:#D9D9D9;
+  --text-2:#3C4852;
+  --text-3:#BEBEBE;
+  --text-4:#FFFFFF;
+  --alert-text:#DE4313;
+  --alert-fill: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(254, 193, 99, 0.2) 100%);
+  --alert-border:linear-gradient(135deg, #DE4313 0%, #DE4313 0.75%, #DE4313 2.92%, #DE4414 6.37%, #DF4515 10.97%, #DF4816 16.59%, #E04B18 23.1%, #E1501B 30.37%, #E3561F 38.27%, #E55E24 46.66%, #E7682B 55.41%, #EB7533 64.39%, #EE843C 73.47%, #F39547 82.52%, #F8A954 91.41%, #FEC163 100%);
+  --disable:#E7E7E7;
+  --success:#47BA68;
+  --success-2:#D7EDDD;
+  --danger-1:#F77171;
+  --danger-2:#FF0000;
+ --primary-1:#47BA68;
+ --primary-2:linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+
+
+
+
+
+}
+
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .1rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+/* common styles */
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.w-100{
+  width: 100%;
+}.d-flex{
+  display: flex;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+.mr-auto{
+  margin-right: auto;
+}
+
+.tag{
+  position: absolute;
+  width: 161px;
+  height: 16px;
+  /* background-color: var(--text-3); */
+  border-radius: 0px 0px 4px 4px;
+}
+.pg-lightgray{
+
+  background-color: var(--disable) !important;
+}
+.text-disabled{
+  color: var(--text-3) !important;
+}
+.pg-lightgreen{
+  background-color: var(--success-2) !important;
+ 
+}
+.pg-monthclr{
+  color: var(--text-3);
+}
+
+
+
+title{
+  letter-spacing: .1rem;
+}
+.box{
+  min-width: 200px;
+ 
+  padding: 5px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
